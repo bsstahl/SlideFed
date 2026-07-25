@@ -65,7 +65,8 @@ Contributions are welcome. SlideFed aims to become a shared standard for federat
 
 ## License
 
-TBD
+This project is licensed under the GNU Affero General Public License v3.0.
+If you run a modified version of SlideFed as a network service, you must make the corresponding source code available to users of that service.
 
 ## Status
 
