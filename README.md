@@ -1,0 +1,72 @@
+# SlideFed
+
+A federated presentation platform built on **ActivityPub** and **ActivityStreams**, where slides, decks, and content items are first‑class, addressable, remixable objects. SlideFed brings presentations into the Fediverse by treating every slide as an ActivityStreams object and every action—creating, updating, presenting, revealing—as an ActivityPub activity.
+
+SlideFed is designed for interoperability, decentralization, and extensibility. It provides a shared vocabulary, a JSON‑LD context, and a set of ActivityPub endpoints for publishing and presenting content across servers.
+
+## Features
+
+* **Federated Slides** — Each slide is an ActivityStreams object with its own URI.
+* **Decks as Ordered Collections** — Ordered collections of slide URIs, fully addressable and versioned.
+* **Content Items** — Text, images, diagrams, code blocks, and widgets represented as structured objects.
+* **Presentation Sessions** — Live or asynchronous sessions, including scheduled sessions with a start time, modeled as ActivityPub activities.
+* **Reveal & Advance Activities** — Fine‑grained control over slide fragments and navigation.
+* **Annotations** — Audience or presenter markup stored as ActivityStreams objects.
+* **Extensible Vocabulary** — Custom object and activity types built on AS2 and JSON‑LD.
+
+## Vocabulary Overview
+
+SlideFed defines a split ubiquitous language: LiquidVictor terminology for presentation modeling and Fediverse (ActivityStreams/ActivityPub) semantics for publication, interaction, and usage.
+
+### Core Object Types
+
+* **Actor** — Presenter or automated system.
+* **Slide** — A single unit of presentation content.
+* **Deck** — Ordered collection of slides.
+* **ContentItem** — Text, image, video, diagram, code, or widget.
+* **SpeakerNotes** — Presenter‑only notes.
+* **PresentationSession** — Live, asynchronous, or scheduled presentation event.
+* **Annotation** — Markup or comments applied to slides or content items.
+
+### Core Activity Types
+
+* **Create** — Author a slide, deck, or content item.
+* **Update** — Modify a slide or deck.
+* **Add / Remove** — Insert or remove slides or content items.
+* **Present** — Display a slide.
+* **Advance / Rewind** — Navigate between slides.
+* **Reveal** — Expose hidden content items.
+* **Annotate** — Add markup or comments.
+* **Publish / Announce** — Make content discoverable.
+* **Session Lifecycle via Create / Update** — Manage session state transitions using AS2 verbs by default.
+* **StartSession / EndSession (Optional Extensions)** — Used only when explicit event verbs are required.
+* **Follow / Undo** — Audience follows presenters or presentation sessions and can undo that relationship.
+
+## Goals
+
+* Provide a **standard vocabulary** for federated presentation content.
+* Enable **interoperable presentation tools** across the Fediverse.
+* Support **real‑time presentation state** via ActivityPub.
+* Allow **fine‑grained content manipulation** through structured objects.
+* Encourage **decentralized publishing** of decks and slides.
+
+## Roadmap
+
+* JSON‑LD context for SlideFed vocabulary  
+* .NET model layer and serialization contracts  
+* ActivityPub server implementation  
+* Client SDKs for presentation tools  
+* Live session protocol  
+* Deck editing and versioning workflows  
+
+## Contributing
+
+Contributions are welcome. SlideFed aims to become a shared standard for federated presentations, and community input is essential. Please open issues for vocabulary proposals, protocol extensions, or implementation questions.
+
+## License
+
+TBD
+
+## Status
+
+Early development. Vocabulary and protocol design in progress.
