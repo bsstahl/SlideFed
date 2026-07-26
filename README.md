@@ -10,6 +10,7 @@ SlideFed is designed for interoperability, decentralization, and extensibility. 
 * **Decks as Ordered Collections** — Ordered collections of slide URIs, fully addressable and versioned.
 * **Content Items** — Text, images, diagrams, code blocks, and widgets represented as structured objects.
 * **Presentation Sessions** — Live or asynchronous sessions, including scheduled sessions with a start time, modeled as ActivityPub activities.
+* **Presentation Clients** — Clients that follow a session and display the appropriate slide as updates arrive.
 * **Reveal & Advance Activities** — Fine‑grained control over slide fragments and navigation.
 * **Annotations** — Audience or presenter markup stored as ActivityStreams objects.
 * **Extensible Vocabulary** — Custom object and activity types built on AS2 and JSON‑LD.
@@ -26,6 +27,7 @@ SlideFed defines a split ubiquitous language: LiquidVictor terminology for prese
 * **ContentItem** — Text, image, video, diagram, code, or widget.
 * **SpeakerNotes** — Presenter‑only notes.
 * **PresentationSession** — Live, asynchronous, or scheduled presentation event.
+* **PresentationClient** — Client application that follows a session and renders the active slide.
 * **Annotation** — Markup or comments applied to slides or content items.
 
 ### Core Activity Types
@@ -49,6 +51,21 @@ SlideFed defines a split ubiquitous language: LiquidVictor terminology for prese
 * Support **real‑time presentation state** via ActivityPub.
 * Allow **fine‑grained content manipulation** through structured objects.
 * Encourage **decentralized publishing** of decks and slides.
+
+## Architecture
+
+See the C4 architecture set index at [docs/C4-Index.md](docs/C4-Index.md).
+
+## Implementation Standards
+
+- All implementation code for this project is written in C#.
+- .NET analyzers are enabled in their strictest mode.
+- Compiler and analyzer warnings are treated as errors.
+- TDD approval gate is mandatory: tests must be proposed and explicitly approved before any production code is implemented.
+
+## MVP Backlog
+
+See [docs/MVP-Feature-List.md](docs/MVP-Feature-List.md) for MVP feature sequencing and acceptance criteria.
 
 ## Roadmap
 

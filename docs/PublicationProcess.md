@@ -238,6 +238,8 @@ Important:
 **The slide content is NOT resent.**  
 Audience members dereference the Slide URI if needed.
 
+Presentation clients subscribed to the session follow updates and render the appropriate slide as the session advances or reveals content.
+
 ---
 
 ## 9. Revealing ContentItems (Fragments)

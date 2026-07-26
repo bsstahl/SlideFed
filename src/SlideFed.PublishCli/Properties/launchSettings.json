@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SlideFed.PublishCli": {
+      "commandName": "Project",
+      "commandLineArgs": "3f6f1ee9-4930-4cb6-a656-7ffcc80d92ac --repository \"C:\\s\\r\\LiquidVictorDatabases\\YamlFile\\BSStahl\""
+    }
+  }
+}

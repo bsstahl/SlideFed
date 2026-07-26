@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SlideFed.PublishCli/SlideFed.PublishCli.csproj" />
+    <Project Path="src/SlideFed.PublishCore/SlideFed.PublishCore.csproj" />
+  </Folder>
+  <Folder Name="/tst/">
+    <Project Path="tst/SlideFed.PublishCore.Tests/SlideFed.PublishCore.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -14,6 +14,9 @@ Examples: human user, SlideFed server, bot.
 A collection of actors who receive presentation updates.  
 May be followers or participants in a session.
 
+## PresentationClient
+A client application that follows a PresentationSession and renders the appropriate slide as session updates arrive.
+
 ## PresentationSession
 A live or asynchronous event during which a deck is presented.  
 Tracks current slide, audience, session state, and optional scheduled start.
@@ -185,6 +188,9 @@ A session presents a specific deck.
 
 ## PresentationSession → Audience
 Audience members receive updates from the session.
+
+## PresentationSession → PresentationClient
+A presentation client follows session updates and renders the currently appropriate slide.
 
 # 5. ActivityPub Mapping
 
