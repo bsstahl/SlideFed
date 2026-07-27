@@ -1,0 +1,274 @@
+lockfile_version: '1'
+generated_at: '2026-07-27T19:22:46.611184+00:00'
+apm_version: 0.26.0
+dependencies:
+- repo_url: github/awesome-copilot
+  name: csharp-xunit
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/csharp-xunit
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/csharp-xunit
+  - .agents/skills/csharp-xunit/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/csharp-xunit/SKILL.md: sha256:7a2d020e24a5788c4999c05c86902599bb31a5df70b2595b37c00beb802cdb49
+  content_hash: sha256:3c224e79f92ec027de3d5f44d0ca3077f076cb1e1bfff6b0db5b09c34c3aecd2
+- repo_url: github/awesome-copilot
+  name: csharp-async
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/csharp-async
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/csharp-async
+  - .agents/skills/csharp-async/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/csharp-async/SKILL.md: sha256:d52c0812a3e4325ab0d89aebd074efe5e6246e722522180f8613ef3c72a72acc
+  content_hash: sha256:e889958419757528e43fb674607d13fffe331a6673cfcef2b0ab8ff9fb569bb8
+- repo_url: github/awesome-copilot
+  name: csharp-docs
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/csharp-docs
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/csharp-docs
+  - .agents/skills/csharp-docs/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/csharp-docs/SKILL.md: sha256:ddcc59c5f0320af04a59ba090b8e6490ce537aad2d8b2667fdf386686d037826
+  content_hash: sha256:93da3063bb770f13feec581efa3ff232c69a5a94b75cddfc4ad6e82909835cfe
+- repo_url: github/awesome-copilot
+  name: prd
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/prd
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/prd
+  - .agents/skills/prd/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/prd/SKILL.md: sha256:6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5
+  content_hash: sha256:1f3e1f005fc40fda85d250ae906c8ee4f7e8e833e23adfeca6542c19609fd7cd
+- repo_url: github/awesome-copilot
+  name: qdrant-clients-sdk
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/qdrant-clients-sdk
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/qdrant-clients-sdk
+  - .agents/skills/qdrant-clients-sdk/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/qdrant-clients-sdk/SKILL.md: sha256:eac9386970303787ccff5ce65f77e2bc51286a07b27977a8fba1f256f4c95426
+  content_hash: sha256:141f4f633e3b60d94149f4bd573d6106ee2eb7ab070dc99249a221d173c01946
+- repo_url: microsoft/apm-sample-package
+  name: apm-sample-package
+  host: github.com
+  resolved_commit: fb2851683be0e0e7711421d518bd8dba23b0b1f6
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/style-checker
+  - .agents/skills/style-checker/SKILL.md
+  - .github/agents/design-reviewer.agent.md
+  - .github/instructions/design-standards.instructions.md
+  - .github/prompts/accessibility-audit.prompt.md
+  - .github/prompts/design-review.prompt.md
+  deployed_file_hashes:
+    .agents/skills/style-checker/SKILL.md: sha256:1142700284d253c15e561434362ae6203db08e41ef07e7082386df3651738829
+    .github/agents/design-reviewer.agent.md: sha256:616988766ebc7d42cc6f599a17d1ad3ab8164e139fad82e111af5441fe3986cb
+    .github/instructions/design-standards.instructions.md: sha256:6f5d994d6437416e14e4ca5540f4d1cf06fad079728a1419acfb1dd7038ec38d
+    .github/prompts/accessibility-audit.prompt.md: sha256:c3382c6b7ac6ba38cf66d345923be79c5a46b8783a0d33aac457ff60f1b6597a
+    .github/prompts/design-review.prompt.md: sha256:f10919f07eec83c62c7912e318382b472ad27eb1c22c11525b813522960e8e06
+  content_hash: sha256:744cca54cc8ff7ca90aa1dd621c2f98c6291cd793815afe8518001cc94b8aba9
+- repo_url: github/awesome-copilot
+  name: review-and-refactor
+  host: github.com
+  resolved_commit: 329f2dcdaf02a59e88a0f55a8f51414fa3378966
+  version: unknown
+  virtual_path: skills/review-and-refactor
+  is_virtual: true
+  depth: 2
+  resolved_by: microsoft/apm-sample-package
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/review-and-refactor
+  - .agents/skills/review-and-refactor/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/review-and-refactor/SKILL.md: sha256:95b48ed4b137777ddc87b77cb0873ed7f485141a517825e71af1a984cf5a6cd6
+  content_hash: sha256:9236d06a1500089ddb46975b866e9a63478e502afe7095b1980c618678a7c7fe
+deployments:
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-async
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-async
+  active_owner: github/awesome-copilot/skills/csharp-async
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-async/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-async
+  active_owner: github/awesome-copilot/skills/csharp-async
+  content_hash: sha256:d52c0812a3e4325ab0d89aebd074efe5e6246e722522180f8613ef3c72a72acc
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-docs
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-docs
+  active_owner: github/awesome-copilot/skills/csharp-docs
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-docs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-docs
+  active_owner: github/awesome-copilot/skills/csharp-docs
+  content_hash: sha256:ddcc59c5f0320af04a59ba090b8e6490ce537aad2d8b2667fdf386686d037826
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-xunit
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-xunit
+  active_owner: github/awesome-copilot/skills/csharp-xunit
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/csharp-xunit/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/csharp-xunit
+  active_owner: github/awesome-copilot/skills/csharp-xunit
+  content_hash: sha256:7a2d020e24a5788c4999c05c86902599bb31a5df70b2595b37c00beb802cdb49
+- kind: project-relative
+  target: agents
+  value: .agents/skills/prd
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/prd
+  active_owner: github/awesome-copilot/skills/prd
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/prd/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/prd
+  active_owner: github/awesome-copilot/skills/prd
+  content_hash: sha256:6772e6f0fcc7110d625c7f4595e4990e1910007676c36d217eda4e779041d5e5
+- kind: project-relative
+  target: agents
+  value: .agents/skills/qdrant-clients-sdk
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/qdrant-clients-sdk
+  active_owner: github/awesome-copilot/skills/qdrant-clients-sdk
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/qdrant-clients-sdk/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/qdrant-clients-sdk
+  active_owner: github/awesome-copilot/skills/qdrant-clients-sdk
+  content_hash: sha256:eac9386970303787ccff5ce65f77e2bc51286a07b27977a8fba1f256f4c95426
+- kind: project-relative
+  target: agents
+  value: .agents/skills/review-and-refactor
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/review-and-refactor
+  active_owner: github/awesome-copilot/skills/review-and-refactor
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/review-and-refactor/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - github/awesome-copilot/skills/review-and-refactor
+  active_owner: github/awesome-copilot/skills/review-and-refactor
+  content_hash: sha256:95b48ed4b137777ddc87b77cb0873ed7f485141a517825e71af1a984cf5a6cd6
+- kind: project-relative
+  target: agents
+  value: .agents/skills/style-checker
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: null
+- kind: project-relative
+  target: agents
+  value: .agents/skills/style-checker/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: sha256:1142700284d253c15e561434362ae6203db08e41ef07e7082386df3651738829
+- kind: project-relative
+  target: copilot
+  value: .github/agents/design-reviewer.agent.md
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: sha256:616988766ebc7d42cc6f599a17d1ad3ab8164e139fad82e111af5441fe3986cb
+- kind: project-relative
+  target: copilot
+  value: .github/instructions/design-standards.instructions.md
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: sha256:6f5d994d6437416e14e4ca5540f4d1cf06fad079728a1419acfb1dd7038ec38d
+- kind: project-relative
+  target: copilot
+  value: .github/prompts/accessibility-audit.prompt.md
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: sha256:c3382c6b7ac6ba38cf66d345923be79c5a46b8783a0d33aac457ff60f1b6597a
+- kind: project-relative
+  target: copilot
+  value: .github/prompts/design-review.prompt.md
+  runtime: null
+  scope: project
+  owners:
+  - microsoft/apm-sample-package
+  active_owner: microsoft/apm-sample-package
+  content_hash: sha256:f10919f07eec83c62c7912e318382b472ad27eb1c22c11525b813522960e8e06

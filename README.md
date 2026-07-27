@@ -62,6 +62,7 @@ See the C4 architecture set index at [docs/C4-Index.md](docs/C4-Index.md).
 - .NET analyzers are enabled in their strictest mode.
 - Compiler and analyzer warnings are treated as errors.
 - TDD approval gate is mandatory: tests must be proposed and explicitly approved before any production code is implemented.
+- Agents are managed using [apm](https://microsoft.github.io/apm)
 
 ## MVP Backlog
 

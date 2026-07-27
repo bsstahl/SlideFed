@@ -1,0 +1,20 @@
+name: SlideFed
+version: 1.0.0
+description: APM project for SlideFed
+author: Barry S Stahl
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, kiro, opencode, windsurf
+targets:
+  - copilot
+dependencies:
+  apm:
+    - microsoft/apm-sample-package#v1.0.0
+    - github/awesome-copilot/skills/csharp-xunit
+    - github/awesome-copilot/skills/csharp-async
+    - github/awesome-copilot/skills/csharp-docs
+    - github/awesome-copilot/skills/prd
+    - github/awesome-copilot/skills/qdrant-clients-sdk
+  mcp: []
+includes: auto
+scripts: {}

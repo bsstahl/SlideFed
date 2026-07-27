@@ -48,6 +48,7 @@ Allow a presenter (or publishing tool) to publish a complete deck package (Deck,
 - Rich policy or permissions model beyond basic presenter ownership assumptions.
 - Advanced bulk publish orchestration across multiple Decks.
 - Full history replay for newly joined followers.
+- Commenting and Chat threads associated with Decks &amp; Slides
 
 ### Primary User Story
 
