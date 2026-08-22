@@ -56,6 +56,10 @@ SlideFed defines a split ubiquitous language: LiquidVictor terminology for prese
 
 See the C4 architecture set index at [docs/C4-Index.md](docs/C4-Index.md).
 
+## SpeakerOps Integration
+
+SlideFed is one bounded context within the wider SpeakerOps system. Its local integration boundary is documented in [docs/SpeakerOps-Integration.md](docs/SpeakerOps-Integration.md).
+
 ## Implementation Standards
 
 - All implementation code for this project is written in C#.

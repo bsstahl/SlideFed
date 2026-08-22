@@ -29,3 +29,7 @@ This index provides the recommended reading order for SlideFed architecture diag
 2. Read Level 2 to align on deployable containers.
 3. Read Level 3 to align on WebAPI responsibilities.
 4. Read Level 4 to align on write, delivery, and read model behavior.
+
+## SpeakerOps Boundary
+
+See [SpeakerOps-Integration.md](SpeakerOps-Integration.md) for SlideFed's role in the wider SpeakerOps system and its boundaries with LiquidVictor, TalkFolio, and TalkCircuit.
