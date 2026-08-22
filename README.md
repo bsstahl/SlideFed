@@ -4,6 +4,10 @@ A federated presentation platform built on **ActivityPub** and **ActivityStreams
 
 SlideFed is designed for interoperability, decentralization, and extensibility. It provides a shared vocabulary, a JSON‑LD context, and a set of ActivityPub endpoints for publishing and presenting content across servers.
 
+## Code of Conduct
+
+All contributors and users are expected to follow the [Strict Accountability Policy](CODE_OF_CONDUCT.md).
+
 ## Features
 
 * **Federated Slides** — Each slide is an ActivityStreams object with its own URI.
