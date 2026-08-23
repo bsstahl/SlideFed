@@ -1,8 +1,8 @@
 # SpeakerOps Integration
 
-SlideFed is the SpeakerOps bounded context responsible for publishing built presentations into the Fediverse.
+SlideFed is the independent product responsible for publishing built presentations into the Fediverse.
 
-This document records SlideFed's integration boundary inside the wider SpeakerOps system. SlideFed's core domain remains ActivityPub/ActivityStreams publication and interaction; SpeakerOps does not change that boundary.
+This document records SlideFed's integration boundary inside the wider SpeakerOps ecosystem. SlideFed's core domain remains ActivityPub/ActivityStreams publication and interaction; SpeakerOps does not change that boundary.
 
 ## Role in SpeakerOps
 

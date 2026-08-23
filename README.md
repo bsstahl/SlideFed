@@ -62,7 +62,7 @@ See the C4 architecture set index at [docs/C4-Index.md](docs/C4-Index.md).
 
 ## SpeakerOps Integration
 
-SlideFed is one bounded context within the wider SpeakerOps system. Its local integration boundary is documented in [docs/SpeakerOps-Integration.md](docs/SpeakerOps-Integration.md).
+SlideFed is one independent product within the wider SpeakerOps ecosystem. Its local integration boundary is documented in [docs/SpeakerOps-Integration.md](docs/SpeakerOps-Integration.md).
 
 ## Implementation Standards
 
