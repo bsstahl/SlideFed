@@ -52,6 +52,27 @@ SlideFed does not own:
 
 Those concerns belong to TalkFolio or TalkCircuit.
 
+## Shared SpeakerOps Contract
+
+This repository is part of the SpeakerOps product family and must respect the system-level architecture contract defined in the canonical master repository at ../../SpeakerOps/.
+
+The authoritative governance documents are:
+
+- [../../SpeakerOps/docs/ADRs.md](../../SpeakerOps/docs/ADRs.md)
+- [../../SpeakerOps/docs/Integration-Strategy.md](../../SpeakerOps/docs/Integration-Strategy.md)
+
+These documents define the cross-product rules that apply across all products in the family, including:
+
+* product boundaries and ownership
+* stable identity-based references between products
+* controlled and extensible shared vocabularies
+* rules for storage and repository abstraction
+* the requirement that local product docs remain product-local and not supersede the shared system contract
+
+This repository may define its own local implementation detail, schema, and workflow documentation, but it must not contradict or replace the shared SpeakerOps rules. Any change that affects cross-product contracts, vocabulary, identity semantics, or storage boundaries must be reflected in the canonical SpeakerOps documents and reviewed against the shared contract before it is treated as accepted behavior.
+
+In short: local product autonomy is preserved, but product autonomy does not permit violating the shared SpeakerOps architecture and integration contract.
+
 ## Integration Principle
 
 SlideFed publishes presentation artifacts and sessions. It does not decide which talks should exist, which talks should be submitted, whether talks are in the same family, or whether a conference is a good fit.
