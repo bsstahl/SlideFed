@@ -36,6 +36,7 @@ Before making changes, read the repository guidance that applies to the work:
 * [docs/SpeakerOps-Integration.md](./docs/SpeakerOps-Integration.md)
 * [docs/C4-Index.md](./docs/C4-Index.md)
 * [docs/PublicationProcess.md](./docs/PublicationProcess.md)
+* [docs/Dual-ELO-Rating-System.md](./docs/Dual-ELO-Rating-System.md) (future enhancement)
 * [.github/instructions/logging.instructions.md](./.github/instructions/logging.instructions.md)
 
 ## Tooling and environment

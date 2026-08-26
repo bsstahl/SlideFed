@@ -76,6 +76,10 @@ SlideFed is one independent product within the wider SpeakerOps ecosystem. Its l
 
 See [docs/MVP-Feature-List.md](docs/MVP-Feature-List.md) for MVP feature sequencing and acceptance criteria.
 
+## Future Enhancements
+
+See [docs/Dual-ELO-Rating-System.md](docs/Dual-ELO-Rating-System.md) for the proposed speaker and attendee rating system.
+
 ## Roadmap
 
 * JSON‑LD context for SlideFed vocabulary  
